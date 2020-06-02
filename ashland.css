@@ -1,0 +1,174 @@
+body {
+    background-color: #252525;
+}
+.container {
+    display: grid;
+    max-width: 1050px;
+    max-height: 2000px;
+    position: relative;
+    margin: auto;
+    grid-gap: 70px;
+    grid-template: repeat(60, 1fr) / repeat(6, 1fr);
+    
+} 
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    color: whitesmoke;
+    text-align: left;
+    display: inline;
+}   
+header {
+    grid-area: 2 / 1 / span 1 / span 1;
+    
+}
+nav {
+    grid-area: 2 / 5 / span 1 / span 2;
+    font-weight: 150;
+    word-spacing: 20px;
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    word-spacing: 20px;
+    display: inline;
+
+}
+h1 {
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-weight: 350;
+}
+.heading {
+    grid-area: 3 / 1 / span 1 / span 6;
+    
+}
+hr {
+    border: 1px solid whitesmoke;
+}
+.project {
+    grid-area: 4 / 1 / span 2 / span 2;
+}
+h3 {
+    color: whitesmoke;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 150;
+    text-emphasis: bold;
+}
+p { 
+    color: whitesmoke;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 150;
+}
+li {
+    color: whitesmoke;
+    font-family: Helvetica;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 150;
+}
+.deliverables {
+    grid-area: 4 / 3 / span 2 / span 2;
+}
+.deliverables ul {
+    margin: 0;
+    padding: 0;
+}
+.studio {
+    grid-area: 4 / 5 / span 2 / span 2;
+}
+.studio ul {
+    margin: 0;
+    padding: 0;
+}
+.ashland {
+    grid-area: 7 / 1 / 11 / span 6;
+}
+.pic1 {
+    height: 400px;
+    width: 100%;
+}
+.stamps {
+    grid-area: 14 / 1 / 18 / span 3;
+    
+}
+.pic2 {
+    height: 500px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.stickers {
+    grid-area: 14 / 4 / 18 / span 3; 
+}
+.pic3 {
+    height: 500px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.green {
+    grid-area: 22 / 1 / 25 / span 6;
+    
+}
+.pic4 {
+    height: 400px;
+    width: 100%;
+}
+.bizcards {
+    grid-area: 29 / 1 / 33 / span 4;
+}
+.pic5 {
+    height: 450px;
+    width: 75%;
+}
+.totes {
+    grid-area: 29 / 4 / 38 / span 3;
+}
+.pic6 { 
+    height: 80.5%;
+    width: 100%;
+}
+.feeling-hungry {
+    grid-area: 36 / 1 / 42 / span 6;
+}
+.pic7 {
+    height: 100%;
+    width: 100%;
+}
+.adopt {
+    grid-area: 42 / 1 / 45 / span 6;
+}
+.pic8 {
+    height: 400px;
+    width: 100%;
+}
+.sketch-pad {
+    grid-area: 49 / 1 / 52 / span 6; 
+}
+.pic9 {
+    height: 400px;
+    width: 100%;
+}
+.footer {
+    grid-area: 56 / 1 / 59 / span 1;
+}
+h4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.signature {
+    grid-area: 56 / 5 / 59 / span 2;
+    text-align: right;
+}
+div a {
+    text-decoration: none;
+}

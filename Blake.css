@@ -1,0 +1,74 @@
+body {
+    background-color: #252525;
+}
+.container {
+    display: grid;
+    max-width: 1050px;
+    max-height: 2000px;
+    position: relative;
+    margin: auto;
+    grid-gap: 70px;
+    grid-template: repeat(30, 1fr) / repeat(6, 1fr);
+    background-color: #252525;
+    
+}
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    color: whitesmoke;
+    text-align: left;
+    display: inline;
+}
+header {
+    grid-area: 2 / 1 / span 1 / span 1;
+    
+}
+nav {
+    grid-area: 2 / 5 / span 1 / span 2;
+    font-weight: 150;
+    word-spacing: 20px;
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    word-spacing: 20px;
+    display: inline;
+
+}
+.ashland {
+    grid-area: 3 / 1 / 7 / span 6;
+}
+.pic1 {
+    height: 400px;
+    width: 100%; 
+}
+.axon-color {
+    grid-area: 9 / 1 / 13 / span 6;
+}
+
+.pic2 {
+    height: 400px;
+    width: 100%;
+}
+.axon-black {
+    grid-area: 15 / 1 / 19 / span 6;
+}
+.pic3 {
+    height: 400px;
+    width: 100%;
+}
+.iam3rd {
+    grid-area: 21 / 1 / 25 / span 6;
+}
+.pic4 {
+    height: 400px;
+    width: 100%;
+}
+footer {
+    grid-area: 28 / 1 / span 2 / span 2;
+}
